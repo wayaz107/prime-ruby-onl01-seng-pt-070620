@@ -5,8 +5,7 @@ def prime?(item)
 (2..(item -1)).each do |number|
   if item % number == 0
    false
- else 
-   true  
+ else
+   true
 end
-end 
-
+end
